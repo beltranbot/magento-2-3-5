@@ -14,7 +14,7 @@
     - install/check composer dependencies
         composer install
 6. flush cache
-        php bin/magento cache:flush
-7. Optionally you can activate developer mode with:
-        php bin/magento deploy:mode:set developer
+    php bin/magento cache:flush
+7. Start cron:
+    php bin/magento cron:install
 8. Now you can access the magento admin
